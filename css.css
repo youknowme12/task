@@ -1,0 +1,93 @@
+:root {
+  --main-white: #f0f0f0;
+  --main-red: #be3144;
+  --main-blue: #45567d;
+  --main-gray: #303841;
+}
+html{
+	box-sizing: border-box;
+	font-size: 35px;
+	scroll-behavior: smooth;
+}
+@media (max-width: 75em) {
+  html {
+    font-size: 60%;
+  }
+}
+body{
+	background-color: #000000;
+	color: white;
+    line-height: 1.4;
+}
+h1{
+	color: white;
+	font-weight: bold;
+	font-style: italic;
+	 font-size: 3rem;
+}
+header{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	text-align: center;
+}
+#mysearch{
+	float: left;
+	background-color: gray;
+	text-orientation: left;
+}
+nav{
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: var(--main-gray);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+  z-index: 10;
+}
+a{
+	text-decoration: none;
+  color: var(--main-white);
+}
+#home{
+	background: linear-gradient(45deg,gray,black);
+	color: black;
+    border: solid 5px pink;
+    border-radius: 0 100px 100px 0;
+    padding: 10px 20px 10px 20px;
+}
+#aboutme{
+	background: linear-gradient(45deg,gray,black);
+	color: black;
+    border: solid 5px pink;
+    border-radius: 0 100px 100px 0;
+    padding: 10px 20px 10px 20px;
+}
+#pastwork{
+	background: linear-gradient(45deg,gray,black);
+	color: black;
+    border: solid 5px pink;
+    border-radius: 0 100px 100px 0;
+    padding: 10px 20px 10px 20px;
+}
+#myskills{
+	background: linear-gradient(45deg,gray,black);
+	color: black;
+    border: solid 5px pink;
+    border-radius: 0 100px 100px 0;
+    padding: 10px 20px 10px 20px;
+}
+#contact-details{
+	background: linear-gradient(45deg,gray,black);
+	color: black;
+    border: solid 5px pink;
+    border-radius: 0 100px 100px 0;
+    padding: 10px 20px 10px 20px;
+}
+p{
+	text-align: center;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+
+
